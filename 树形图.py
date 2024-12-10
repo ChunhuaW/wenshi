@@ -70,7 +70,7 @@ def main():
         )
     )
     # 生成本地网页链接
-    tree.render("纹饰数量与陶瓷数量_树形图.html")
+    tree.render("index.html")
 if __name__ == "__main__":
     while True:
         main()
