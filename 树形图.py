@@ -66,7 +66,7 @@ def main():
             title_opts=opts.TitleOpts(title="纹饰可视化"),
         )
             .set_series_opts(
-            label_opts=opts.LabelOpts(font_family="黑体", font_size=14)
+            label_opts=opts.LabelOpts(font_family="黑体", color='white',font_size=14)
         )
     )
     # 生成本地网页链接
